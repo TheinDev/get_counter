@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c35d9de8-cd84-4c91-b968-f70f23299b5d" name="Default Changelist" comment="" />
+    <list default="true" id="c35d9de8-cd84-4c91-b968-f70f23299b5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@HXT7N18414010513]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="28mBjXdyopKgjBt8N6KDj6uQCHj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -22,7 +34,15 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c35d9de8-cd84-4c91-b968-f70f23299b5d" name="Default Changelist" comment="" />
+      <created>1651812015697</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651812015697</updated>
+    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -35,5 +55,39 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1816" height="228" key="GridCell.Tab.0.bottom" timestamp="1651812330737">
+      <screen x="0" y="25" width="1920" height="978" />
+    </state>
+    <state width="1816" height="228" key="GridCell.Tab.0.bottom/0.25.1920.978@0.25.1920.978" timestamp="1651812330737" />
+    <state width="1816" height="228" key="GridCell.Tab.0.center" timestamp="1651812330736">
+      <screen x="0" y="25" width="1920" height="978" />
+    </state>
+    <state width="1816" height="228" key="GridCell.Tab.0.center/0.25.1920.978@0.25.1920.978" timestamp="1651812330736" />
+    <state width="1816" height="228" key="GridCell.Tab.0.left" timestamp="1651812330736">
+      <screen x="0" y="25" width="1920" height="978" />
+    </state>
+    <state width="1816" height="228" key="GridCell.Tab.0.left/0.25.1920.978@0.25.1920.978" timestamp="1651812330736" />
+    <state width="1816" height="228" key="GridCell.Tab.0.right" timestamp="1651812330737">
+      <screen x="0" y="25" width="1920" height="978" />
+    </state>
+    <state width="1816" height="228" key="GridCell.Tab.0.right/0.25.1920.978@0.25.1920.978" timestamp="1651812330737" />
+    <state x="450" y="170" key="Vcs.Push.Dialog.v2" timestamp="1651812049632">
+      <screen x="0" y="25" width="1920" height="978" />
+    </state>
+    <state x="450" y="170" key="Vcs.Push.Dialog.v2/0.25.1920.978@0.25.1920.978" timestamp="1651812049632" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/main.dart</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

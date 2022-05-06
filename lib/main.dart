@@ -20,7 +20,25 @@ class _MyAppState extends State<MyApp> {
     final ctl = Get.put(Controller());
     return GetMaterialApp(home:  Scaffold(
       appBar: AppBar(title: Obx(()=>Text("Click ${ctl.count}")),),
-      body: Container(),
+      body: Container(
+
+        child: Center(child: ElevatedButton(
+          child: Text("Go To Other")
+
+
+          ,onPressed: ()=> Get.to(NewPage()),
+        ),),
+      ),
     ),);
   }
 }
+
+class NewPage extends StatelessWidget {
+  const NewPage({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
