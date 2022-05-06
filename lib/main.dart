@@ -41,14 +41,14 @@ class NewPage extends StatefulWidget {
 }
 
 class _NewPageState extends State<NewPage> {
-  final Controller ctrl = Get.find();
+  final Controller control = Get.find();
 
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(leading: BackButton(),),
-      body: Center(child: Text("${ctrl.count}"),),);
+      body: Center(child: Text("${control.count}"),),);
   }
 }
 
