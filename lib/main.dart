@@ -26,22 +26,31 @@ class _MyAppState extends State<MyApp> {
           child: Text("Go To Other")
 
 
-          ,onPressed: ()=> Get.to(NewPage()),
+          ,onPressed: ()=> Get.to(NewPage()))
         ),),
+      floatingActionButton: FloatingActionButton(child: Icon(Icons.add),onPressed: ()=>ctl.increament(),),
       ),
-    ),);
+  );
   }
 }
+class NewPage extends StatefulWidget {
+  const NewPage({Key? key}) : super(key: key);
 
-class NewPage extends StatelessWidget {
-   NewPage({Key? key}) : super(key: key);
+  @override
+  _NewPageState createState() => _NewPageState();
+}
 
+class _NewPageState extends State<NewPage> {
   final Controller ctrl = Get.find();
 
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(leading: BackButton(),),
+      body: Center(child: Text("${ctrl.count}"),),);
   }
 }
+
+
 
