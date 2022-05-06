@@ -34,7 +34,10 @@ class _MyAppState extends State<MyApp> {
 }
 
 class NewPage extends StatelessWidget {
-  const NewPage({Key? key}) : super(key: key);
+   NewPage({Key? key}) : super(key: key);
+
+  final Controller ctrl = Get.find();
+
 
   @override
   Widget build(BuildContext context) {
